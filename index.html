@@ -25,7 +25,6 @@
         </div>
     <!--/burger-menu-->
 
-
     <header class="header">
         <div class="container">
             <div class="row">
@@ -59,6 +58,24 @@
 
     <section class="section">
         <div class="container">
+
+            <!--
+                На 429 строке, стили block-accept-message.
+                На 437 строке, стили block-noaccept-message.
+                На 444 строке, стили block-expectation-message
+            -->
+            <div class="block-message-account">
+                <div class="block-accept-message">
+                    <p class="text-message">Ваш персонаж одобрен администрацией.</p>
+                </div>
+                <div class="block-noaccept-message">
+                    <p class="text-message">Ваш персонаж отклонён. Причина отклонения: Слабая квента.</p>
+                </div>
+                <div class="block-expectation-message">
+                    <p class="text-message">Ваш персонаж находится на одобрении у администрации.</p>
+                </div>
+            </div>
+
             <div class="block-banner-player">
                 <h1 class="lk-player">ЛИЧНЫЙ КАБИНЕТ</h1>
                 <h3 class="nickname">Houp_Stewart</h3>
@@ -101,8 +118,13 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block-story-player">
-                        <div class="block-name-kventa">
-                            <h3 class="kventa">КВЕНТА ПЕРСОНАЖА</h3>
+                        <div class="block-flex-kventa">
+                            <div class="block-name-kventa">
+                                <h3 class="kventa">КВЕНТА ПЕРСОНАЖА</h3>
+                            </div>
+                            <div class="block-pencil">
+                                <i class="fa-solid fa-pencil"></i>
+                            </div>
                         </div>
                         <div class="block-name-story">
                             <p class="story-player">

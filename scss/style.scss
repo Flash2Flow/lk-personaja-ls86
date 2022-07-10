@@ -333,6 +333,7 @@ a{
     background-image: url(../assets/banner-lk-player.png);
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 20px;
     width: 100%;
     height: 250px;
     text-align: center;
@@ -441,6 +442,14 @@ a{
     font-size: 15px;
     box-shadow: 0px 0px 20px 0px rgb(83 78 78);
 }
+.block-ban-message{
+    //display: none;
+    width: 100%;
+    background-color: #9F2525;
+    @include BoldUpFonts;
+    font-size: 15px;
+    box-shadow: 0px 0px 20px 0px rgb(83 78 78);
+}
 .block-expectation-message{
     //display: none;
     width: 100%;
@@ -457,7 +466,43 @@ a{
     padding-bottom: 10px;
     margin-left: 20px;
 }
-
+.block-retest{
+    text-align: center;
+    width: 100%;
+    background-color: #9F2525;
+    @include BoldUpFonts;
+    font-size: 15px;
+    box-shadow: 0px 0px 20px 0px rgb(83 78 78);
+}
+.opis-retest{
+    @include BoldUpFonts;
+    font-size: 15px;
+    text-transform: none;
+}
+.block-text-inform-retest{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: none;
+}
+.block-btn-retest{
+    padding-bottom: 10px;
+}
+.text-retest{
+    margin-bottom: 0px;
+}
+.btn-retest{
+    @include BoldUpFonts;
+    font-size: 15px;
+    border: none;
+    background-color: #259F38;
+    padding: 10px 20px;
+    color: white;
+    transition: .2s ease;
+    letter-spacing: 2px;
+}
+.btn-retest:hover{
+    box-shadow: 0px 0px 20px 0px rgb(83 78 78);
+}
 //media
 @media screen and (max-width: 1024px){
     .block-name-story{
